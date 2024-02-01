@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 1</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <script src="https://kit.fontawesome.com/7edb915b0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="student-management">
+            <h2>Student Management</h2>
+            <div class="btn">
+                <button class="btn-add"><i class="fa-solid fa-plus"></i> Add Student</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Student Code</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="student-list">
+                    
+                </tbody>
+            </table>
+        </div>
+        <div class="add-student">
+            <h2>Add Student</h2>
+            <input type="text" name="firtsName" id="firstName" placeholder="FirstName">
+            <input type="text" name="lastName" id="lastName" placeholder="LastName">
+            <input type="text" name="studentCode" id="studentCode" placeholder="Student Code">
+            <div class="btn-group">
+                <button id="create-btn">CREATE STUDENT</button>
+                <button id="clear-btn">CLEAR</button>
+                <button id="cancel-btn">CANCEL</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

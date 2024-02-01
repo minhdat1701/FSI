@@ -1,0 +1,142 @@
+/* General setup */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: Josefinslab;
+  src: url(./fonts/josefinslab-bold-webfont.ttf);
+}
+@font-face {
+  font-family: Lovato;
+  src: url(./fonts/Lovato-Light-webfont.ttf);
+}
+* {
+  font-family: Lovato;
+  font-size: 10px;
+}
+h1, h2 {
+  font-family: Josefinslab;
+  letter-spacing: 2px;
+}
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+h2 {
+  font-size: 18px;
+}
+body {
+  line-height: 1.5;
+}
+p, li {
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+}
+section h2 + p {
+  text-indent: 20px;
+}
+/* link */
+
+a:link, a:visited, a:focus, a:hover {
+  color: #a66;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+a {
+  outline: none;
+}
+a:active {
+  background-color: #ffff00;
+}
+a[href*="http"] {
+  padding-right: 15px;
+  background: url(./link.png) center right no-repeat;
+  background-size: 10px;
+}
+/* lists */
+ul, ol {
+  margin: 15px 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-latin;
+}
+/* Navigation menu */
+nav ul {
+  padding: 0px;
+  margin-top: 20px;
+}
+nav ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  width: 70%;
+  line-height: 2.5;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #a66;
+}
+
+nav ul li a:focus, nav ul li a:hover {
+  color: #fff;
+  background: #a66;
+}
+
+nav ul li a:active {
+  color: #000;
+  background: yellow;
+} 

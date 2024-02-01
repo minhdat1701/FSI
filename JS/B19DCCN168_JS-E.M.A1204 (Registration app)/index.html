@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Registration Form</h2>
+        </div>
+        <div id="successMessage"></div>
+        <form action="#">
+            <div class="infor">
+                <div class="input-box">
+                    <span class="text">Username:</span>
+                    <input type="text" name="username" class="input" id="username">
+                    <div class="error-message" id="username-error"></div>
+                </div>
+                <div class="input-box">
+                    <span class="text">Password:</span>
+                    <input type="password" name="password" class="input" id="password">
+                    <div class="error-message" id="password-error"></div>
+                </div>
+                <div class="input-box">
+                    <span class="text">Confirm your password:</span>
+                    <input type="password" name="confirmPassword" class="input" id="confirmPassword">
+                    <div class="error-message" id="confirmPassword-error"></div>
+                </div>
+                <div class="submit">
+                    <button type="submit">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

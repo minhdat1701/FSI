@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  position: relative;
+  background-color: #343a40;
+  background: url("./resources/images/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.slider:before {
+  content: "";
+  position: absolute;
+  background-color: #21416e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+.slider h1 {
+  font-size: 2.4rem;
+}
+.form-group button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.icons .icons-item {
+  max-width: 20rem;
+}
+.icons .icons-item .icon {
+  height: 7rem;
+}
+.icons .icons-item .icon i {
+  font-size: 4.5rem;
+}
+
+.content .content-text {
+  padding: 3rem;
+}
+.content .content-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.opinions {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.opinions .opinion-item {
+  max-width: 18rem;
+}
+.opinions .opinion-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.started {
+  position: relative;
+  background-color: #343a40;
+  background: url("./resources/images//bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.started:before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .slider {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  .slider h1 {
+    font-size: 2.8rem;
+  }
+  .form-group button {
+    margin-top: 0;
+  }
+  .content .content-text {
+    padding: 7rem;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 25px;
+  }
+}

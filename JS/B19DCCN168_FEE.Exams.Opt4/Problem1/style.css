@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 10%;
+    margin: 0;
+    text-align: center;
+}
+.student-management {
+    margin: 30px;
+}
+h2 {
+    margin-bottom: 15px;
+}
+.student-management .btn {
+    text-align: end;
+}
+
+.student-management .btn-add {
+    color: #fff;
+    background-color: #017bfb;
+    padding: 5px 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+.student-management table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.student-management table th, td {
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+}
+.student-management table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.student-management table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+.student-management table tbody tr td:last-child button{
+    color: #fff;
+    font-size: 12px;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    margin: 5px 15px;
+}
+/* add student form */
+.add-student {
+    display: none;
+    margin: 30px;
+}
+.add-student input {
+    width: 100%; 
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn-group button{
+    color: #fff;
+    padding: 8px 15px;
+    margin-right: 15px;
+}
+#create-btn {
+    color: #fff;
+    background-color: #3151b5;
+    border: none;
+    border-radius: 5px;
+}
+#clear-btn {
+    color: #000;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+}
+#cancel-btn {
+    background-color: #f50057;
+    border: none;
+    border-radius: 5px;
+}
